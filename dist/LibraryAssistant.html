@@ -1,0 +1,45 @@
+<html><head>
+  <SCRIPT src="./web-files/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'LibraryAssistant.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPGpubHAgc3BlYz0iMS4wIiB4bWxuczpqZng9Imh0dHA6Ly9qYXZhZnguY29tIiBocmVmPSJMaWJyYXJ5QXNzaXN0YW50LmpubHAiPgogIDxpbmZvcm1hdGlvbj4KICAgIDx0aXRsZT5MaWJyYXJ5QXNzaXN0YW50PC90aXRsZT4KICAgIDx2ZW5kb3I+YWhtZWRhbGlxdXJlc2hpPC92ZW5kb3I+CiAgICA8ZGVzY3JpcHRpb24+bnVsbDwvZGVzY3JpcHRpb24+CiAgICA8b2ZmbGluZS1hbGxvd2VkLz4KICA8L2luZm9ybWF0aW9uPgogIDxyZXNvdXJjZXM+CiAgICA8ajJzZSB2ZXJzaW9uPSIxLjYrIiBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+CiAgICA8amFyIGhyZWY9IkxpYnJhcnlBc3Npc3RhbnQuamFyIiBzaXplPSIxNjU0MjUiIGRvd25sb2FkPSJlYWdlciIgLz4KICAgIDxqYXIgaHJlZj0ibGliL2NvbW1vbnMtY29kZWMtMS40LmphciIgc2l6ZT0iNTgxNjAiIGRvd25sb2FkPSJlYWdlciIgLz4KICAgIDxqYXIgaHJlZj0ibGliL2RlcmJ5LmphciIgc2l6ZT0iMzIzMjc3MCIgZG93bmxvYWQ9ImVhZ2VyIiAvPgogICAgPGphciBocmVmPSJsaWIvZGVyYnljbGllbnQuamFyIiBzaXplPSI1ODgzOTQiIGRvd25sb2FkPSJlYWdlciIgLz4KICAgIDxqYXIgaHJlZj0ibGliL2dzb24tMi44LjEuamFyIiBzaXplPSIyMzI2MjAiIGRvd25sb2FkPSJlYWdlciIgLz4KICAgIDxqYXIgaHJlZj0ibGliL2pmb2VuaXgtOC4wLjguamFyIiBzaXplPSIyNzA4NzcyIiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgPC9yZXNvdXJjZXM+CiAgPGFwcGxldC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0iY29tLmphdmFmeC5tYWluLk5vSmF2YUZYRmFsbGJhY2siICBuYW1lPSJMaWJyYXJ5QXNzaXN0YW50IiA+CiAgICA8cGFyYW0gbmFtZT0icmVxdWlyZWRGWFZlcnNpb24iIHZhbHVlPSI4LjArIi8+CiAgPC9hcHBsZXQtZGVzYz4KICA8amZ4OmphdmFmeC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0ibGlicmFyeS5hc3Npc3RhbnQudWkubWFpbi5NYWluIiAgbmFtZT0iTGlicmFyeUFzc2lzdGFudCIgLz4KICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4KPC9qbmxwPgo='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedlibrary.assistant.ui.main() {
+        dtjava.embed(
+            {
+                id : 'library.assistant.ui.main',
+                url : 'LibraryAssistant.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPGpubHAgc3BlYz0iMS4wIiB4bWxuczpqZng9Imh0dHA6Ly9qYXZhZnguY29tIiBocmVmPSJMaWJyYXJ5QXNzaXN0YW50LmpubHAiPgogIDxpbmZvcm1hdGlvbj4KICAgIDx0aXRsZT5MaWJyYXJ5QXNzaXN0YW50PC90aXRsZT4KICAgIDx2ZW5kb3I+YWhtZWRhbGlxdXJlc2hpPC92ZW5kb3I+CiAgICA8ZGVzY3JpcHRpb24+bnVsbDwvZGVzY3JpcHRpb24+CiAgICA8b2ZmbGluZS1hbGxvd2VkLz4KICA8L2luZm9ybWF0aW9uPgogIDxyZXNvdXJjZXM+CiAgICA8ajJzZSB2ZXJzaW9uPSIxLjYrIiBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+CiAgICA8amFyIGhyZWY9IkxpYnJhcnlBc3Npc3RhbnQuamFyIiBzaXplPSIxNjU0MjUiIGRvd25sb2FkPSJlYWdlciIgLz4KICAgIDxqYXIgaHJlZj0ibGliL2NvbW1vbnMtY29kZWMtMS40LmphciIgc2l6ZT0iNTgxNjAiIGRvd25sb2FkPSJlYWdlciIgLz4KICAgIDxqYXIgaHJlZj0ibGliL2RlcmJ5LmphciIgc2l6ZT0iMzIzMjc3MCIgZG93bmxvYWQ9ImVhZ2VyIiAvPgogICAgPGphciBocmVmPSJsaWIvZGVyYnljbGllbnQuamFyIiBzaXplPSI1ODgzOTQiIGRvd25sb2FkPSJlYWdlciIgLz4KICAgIDxqYXIgaHJlZj0ibGliL2dzb24tMi44LjEuamFyIiBzaXplPSIyMzI2MjAiIGRvd25sb2FkPSJlYWdlciIgLz4KICAgIDxqYXIgaHJlZj0ibGliL2pmb2VuaXgtOC4wLjguamFyIiBzaXplPSIyNzA4NzcyIiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgPC9yZXNvdXJjZXM+CiAgPGFwcGxldC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0iY29tLmphdmFmeC5tYWluLk5vSmF2YUZYRmFsbGJhY2siICBuYW1lPSJMaWJyYXJ5QXNzaXN0YW50IiA+CiAgICA8cGFyYW0gbmFtZT0icmVxdWlyZWRGWFZlcnNpb24iIHZhbHVlPSI4LjArIi8+CiAgPC9hcHBsZXQtZGVzYz4KICA8amZ4OmphdmFmeC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0ibGlicmFyeS5hc3Npc3RhbnQudWkubWFpbi5NYWluIiAgbmFtZT0iTGlicmFyeUFzc2lzdGFudCIgLz4KICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4KPC9qbmxwPgo='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedlibrary.assistant.ui.main);
+</script>
+
+</head><body>
+<h2>Test page for <b>LibraryAssistant</b></h2>
+  <b>Webstart:</b> <a href='LibraryAssistant.jnlp' onclick="return launchApplication('LibraryAssistant.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>
